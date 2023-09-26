@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>webapi.event+.manha</name>
+    </assembly>
+    <members>
+        <member name="M:webapi.event_.manha.Controllers.TiposUsuarioController.Post(webapi.event_.manha.Domains.TiposUsuarioDomain)">
+            <summary>
+            End Point que aciona o metodo de Cadastrar tipos de Usuario
+            </summary>
+            <param name="tiposUsuario"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.event_.manha.Controllers.TiposUsuarioController.Get">
+            <summary>
+            EndPoint que aciona o metodo de listar todos os tipos de usuario
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.event_.manha.Controllers.TiposUsuarioController.GetById(System.Guid)">
+            <summary>
+            End Point que busca tipo de usuario por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.event_.manha.Controllers.TiposUsuarioController.Delete(System.Guid)">
+            <summary>
+            End Point que Deleta o tipo de Usuario
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.event_.manha.Controllers.TiposUsuarioController.Put(System.Guid,webapi.event_.manha.Domains.TiposUsuarioDomain)">
+            <summary>
+            EndPoint que atualiza o tipo do usuario
+            </summary>
+            <param name="id"></param>
+            <param name="tipoUsuario"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.event_.manha.Controllers.UsuarioController.Post(webapi.event_.manha.Domains.UsuarioDomain)">
+            <summary>
+            EndPoint que aciona o metodo de cadastrar um novo usuaria
+            </summary>
+            <param name="usuario"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.event_.manha.Controllers.UsuarioController.GetById(System.Guid)">
+            <summary>
+            EndPoint que aciona o metodo de Buscar um usuario pelo ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:webapi.event_.manha.Migrations.BD">
+            <inheritdoc />
+        </member>
+        <member name="M:webapi.event_.manha.Migrations.BD.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:webapi.event_.manha.Migrations.BD.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:webapi.event_.manha.Migrations.BD.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:webapi.event_.manha.Migrations.BD2">
+            <inheritdoc />
+        </member>
+        <member name="M:webapi.event_.manha.Migrations.BD2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:webapi.event_.manha.Migrations.BD2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:webapi.event_.manha.Migrations.BD2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
